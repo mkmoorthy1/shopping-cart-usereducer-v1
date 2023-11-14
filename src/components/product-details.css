@@ -1,0 +1,149 @@
+.single-product-details{
+    width: 80%;
+    margin:6rem auto;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 15px 2px rgba(15,25,15,0.3);
+
+}
+
+
+.single-product-detail{
+    width: 100%;
+    /* border:1px solid red; */
+    display: flex;
+    padding:1rem;
+    
+
+}
+
+.single-product-details header{
+    font-size: 1.5rem;
+    color:red;
+}
+.single-img-container{
+    width: 100%;
+    height:auto;
+}
+
+.single-img-container img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.single-product-detail-info{
+    display: flex;
+    flex-direction: column;
+    padding:1rem 3rem;
+    
+}
+
+.single-product-detail-info h3{
+    margin-bottom:1.5rem;
+}
+
+.single-product-detail-info .rating{
+    background-color: #3aaf3a;
+    color:#fff;
+    width: 10%;
+    padding: 0.3rem;
+    
+}
+
+.single-product-more-info{
+    display: flex;
+    justify-content:space-between;
+    margin:1rem 0;
+}
+
+.product-cart-detail{
+    display: flex;
+    margin: 2rem 0;
+}
+
+.cart-quantity-decrease{
+    width:15%;
+    height:100%;
+    border:none;
+    cursor: pointer;
+    background-color:red;
+    color:#fff;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius:8px;
+
+}
+
+.qty-label{
+    width:10%;
+    text-align: center;
+}
+
+.cart-quantity-increase{
+    width:15%;
+    height:100%;
+    border:none;
+    cursor: pointer;
+    background-color:green;
+    color:#fff;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius:8px;
+
+}
+
+
+@media (max-width:770px) {
+    .single-product-detail{
+        display: flex;
+        flex-direction: column;
+        font-size:0.8rem;
+    }
+
+    .single-img-container{
+        width: 100%;
+        height:auto;
+    }
+
+    .single-product-more-info{
+        display: flex;
+        flex-direction: column;
+        font-size:0.8rem;
+
+        
+    }
+
+    .single-product-detail-info h3{
+        width: 100%;
+        font-size:1rem;
+        margin-bottom:1.5rem;
+    }
+
+    .single-product-more-info h5{
+        width:100%;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-cart-detail{
+        display: flex;
+        width: 75%;
+        justify-content: space-evenly;
+        margin-top:0;
+    }
+    .qty-label{
+        width:30%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .cart-quantity-decrease,.cart-quantity-increase{
+        width: 50%;
+        font-size: 1.5rem;
+
+    }
+}

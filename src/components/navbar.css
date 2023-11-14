@@ -1,0 +1,51 @@
+nav{
+    background-color:#343A40;
+    color:white;
+    display: flex;
+    height: 55px;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  nav a:hover{
+    text-decoration: underline;
+  }
+
+  nav .container {
+    display:flex;
+    gap:0.8rem  
+  }
+
+  .shopping-cart-icon{
+    position:relative;
+    width: 50px;
+    font-size: 1.8rem;
+  }
+
+  .shopping-cart-count{
+    position: absolute;
+    background-color:red;
+    color:#fff;
+    width: 28px;
+    height: 20px;
+    top:0px;
+    right:5px;
+    font-size:10px;
+    padding-top: 2px;
+    padding-left:2px;
+    padding-right:2px;
+    text-align: center;
+    border-radius:5px;
+ }
